@@ -93,6 +93,7 @@ header {
     margin-top: 3%;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .info-sec form input {
@@ -117,7 +118,6 @@ footer {
     justify-content: flex-end;
     margin-right: 7%;
 }
-
 footer button {
     margin-top: 4%;
     background-color: rgb(86, 197, 21);
@@ -154,4 +154,7 @@ footer button:before {
 footer button:hover {
     box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
     transform: scale(1.05);
+}
+.cs-w{
+    width: 33%;
 }
