@@ -1,0 +1,95 @@
+@media screen and (max-width: 1354px){
+    .custom-head-design{
+        width: 16.2%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1314px){
+    .custom-head-design-for-aca{
+        width: 22.1%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1077px){
+    .custom-head-design-for-aca{
+        width: 24.1%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1020px){
+    .custom-head-design{
+        width: 18.2%;
+        margin-left: 2%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 987px){
+    .custom-head-design-for-aca{
+        width: 27.1%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 908px){
+    .custom-head-design{
+        width: 27.1%;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 878px){
+    .custom-head-design-for-aca{
+        width: 29.1%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 818px){
+    .custom-head-design-for-aca{
+        width: 31.1%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 765px){
+    .custom-head-design-for-aca{
+        width: 35.1%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 678px){
+    .custom-head-design-for-aca{
+        width: 38.1%;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 624px){
+    .custom-head-design-for-aca{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 624px){
+    .custom-head-design{
+        margin-left: 5%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 538px){
+    .tr-head{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .info-sec{
+        flex-direction: column;
+        text-align: center;
+        row-gap: 50px;
+    }
+    .custom-head-design, .custom-head-design-for-aca{
+        width: 100%;
+        margin: auto;
+    }
+    .custom-head-design-for-aca{
+        margin-top: 10%;
+    }
+    footer{
+        justify-content: center;
+        margin: 10% 0;
+    }
+}

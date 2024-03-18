@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3% 5%;
+    line-height: 1.4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    margin-bottom: 5%;
+}
+
+.custom-head-design {
+    border-bottom: 2px solid rgb(17, 56, 139);
+    width: 12.2%;
+    font-size: 1.6rem;
+    color: rgb(17, 56, 139);
+}
+
+.tr-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+
+.bottom-head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ece8e8;
+}
+
+.top-head h2 {
+    font-size: 1.8rem;
+    color: rgb(17, 56, 139);
+}
+
+.img-file {
+    position: relative;
+}
+
+.input-btn {
+    position: absolute;
+    top: 107px;
+    cursor: pointer;
+    left: 86%;
+    font-size: 1rem;
+    padding: 6px;
+    border-radius: 50%;
+    border: none;
+    opacity: 1;
+    color: white;
+    background-color: black;
+}
+
+.input-btn:hover {
+    opacity: 0.8;
+}
+
+.right-head h2 {
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 1.rem;
+}
+
+.right-btm-head {
+    margin-top: 3.5%;
+}
+
+.cs-border {
+    margin: 15px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.596);
+}
+
+.right-btm-head form input {
+    text-align: center;
+    border: none;
+    outline: none;
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.info-sec {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-sec form input {
+    text-align: center;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.596);
+    padding: 15px 0;
+}
+
+.custom-head-design-for-aca {
+    border-bottom: 2px solid rgb(17, 56, 139);
+    width: 18.1%;
+    font-size: 1.6rem;
+    color: rgb(17, 56, 139);
+    margin-top: 6%;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+}
+
+footer button {
+    margin-top: 4%;
+    background-color: rgb(86, 197, 21);
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+
+}
+
+footer button:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 15px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+}
+
+footer button:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
